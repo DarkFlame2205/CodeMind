@@ -32,20 +32,20 @@ Folder Structure
 
 CodeCortex/
 ├── backend/
-│   ├── index.js                # Main backend server
-│   ├── parser/
-│   │   ├── parsePython.js      # Python parser
-│   │   ├── parseJS.js          # JS/TS parser
-│   │   └── logicTree.js        # Logic tree generator
-│   ├── checker/
-│   │   ├── lintPython.js
-│   │   └── lintJS.js
-│   ├── optimizer/
-│   │   ├── optimizePython.js
-│   │   └── optimizeJS.js
-│   └── python_llm/             # Optional local LLM
-│       ├── app.py
-│       └── requirements.txt
+│ ├── index.js # Main backend server
+│ ├── parser/
+│ │ ├── parsePython.js # Python parser
+│ │ ├── parseJS.js # JS/TS parser
+│ │ └── logicTree.js # Logic tree generator
+│ ├── checker/
+│ │ ├── lintPython.js
+│ │ └── lintJS.js
+│ ├── optimizer/
+│ │ ├── optimizePython.js
+│ │ └── optimizeJS.js
+│ └── python_llm/ # Optional local LLM
+│ ├── app.py
+│ └── requirements.txt
 ├── .gitignore
 └── README.md
 
