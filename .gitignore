@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Python virtual env / dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+python-llm/__pycache__/
+
+# Datasets / ML models
+*.csv
+*.h5
+*.pt
+*.pkl
+*.bin
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/

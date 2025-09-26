@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/parser": "^7.28.4",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2"
+  }
+}
